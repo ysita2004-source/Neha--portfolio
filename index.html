@@ -1,7 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Neha Yadav | BCA Student & Web Developer</title>
 
@@ -11,21 +16,25 @@
     <meta name="keywords"
           content="Neha Yadav, Neha Yadav portfolio, BCA student, web developer, web designer, HTML, CSS, JavaScript, Python, C++">
 
-    <meta name="author" content="Neha Yadav">
+    <meta name="author"
+          content="Neha Yadav">
 
-    <meta name="robots" content="index, follow">
+    <meta name="robots"
+          content="index, follow">
 
     <link rel="canonical"
           href="https://ysita2004-source.github.io/Neha--portfolio/">
 
     <!-- Open Graph -->
+
     <meta property="og:title"
           content="Neha Yadav | BCA Student & Web Developer">
 
     <meta property="og:description"
           content="Explore Neha Yadav's portfolio, web development projects, skills and education.">
 
-    <meta property="og:type" content="website">
+    <meta property="og:type"
+          content="website">
 
     <meta property="og:url"
           content="https://ysita2004-source.github.io/Neha--portfolio/">
@@ -34,11 +43,28 @@
           content="https://ysita2004-source.github.io/Neha--portfolio/profile.jpg">
 
     <!-- Favicon -->
-    <link rel="icon" href="profile.jpg">
 
-    <!-- Your CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="icon"
+          href="profile.jpg">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+
     <style>
 
         * {
@@ -54,7 +80,10 @@
             color: white;
         }
 
-        /* NAVBAR */
+
+        /* =========================
+           NAVBAR
+        ========================= */
 
         nav {
             position: sticky;
@@ -95,7 +124,10 @@
             color: #7c5cff;
         }
 
-        /* HERO */
+
+        /* =========================
+           HERO
+        ========================= */
 
         .hero {
             min-height: 90vh;
@@ -141,7 +173,10 @@
             max-width: 600px;
         }
 
-        /* PHOTO */
+
+        /* =========================
+           PHOTO
+        ========================= */
 
         .photo-container {
             display: flex;
@@ -154,7 +189,7 @@
             padding: 8px;
             border-radius: 25px;
             background: linear-gradient(135deg, #7c5cff, #20d9c5);
-            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
         }
 
         .photo-box img {
@@ -166,7 +201,10 @@
             background: #151a2b;
         }
 
-        /* BUTTONS */
+
+        /* =========================
+           BUTTONS
+        ========================= */
 
         .buttons {
             display: flex;
@@ -201,7 +239,10 @@
             background: #111628;
         }
 
-        /* SECTIONS */
+
+        /* =========================
+           SECTIONS
+        ========================= */
 
         section {
             padding: 90px 8%;
@@ -228,7 +269,10 @@
             margin-top: 8px;
         }
 
-        /* ABOUT */
+
+        /* =========================
+           ABOUT
+        ========================= */
 
         .about-container {
             max-width: 1000px;
@@ -260,7 +304,10 @@
             line-height: 1.8;
         }
 
-        /* SKILLS */
+
+        /* =========================
+           SKILLS
+        ========================= */
 
         .skills {
             display: flex;
@@ -277,7 +324,10 @@
             font-size: 14px;
         }
 
-        /* PROJECTS */
+
+        /* =========================
+           PROJECTS
+        ========================= */
 
         .projects {
             max-width: 1100px;
@@ -302,7 +352,10 @@
             font-size: 14px;
         }
 
-        /* EDUCATION */
+
+        /* =========================
+           EDUCATION
+        ========================= */
 
         .education {
             max-width: 1100px;
@@ -319,7 +372,10 @@
             margin-bottom: 8px;
         }
 
-        /* CONTACT */
+
+        /* =========================
+           CONTACT
+        ========================= */
 
         .contact-box {
             max-width: 800px;
@@ -335,26 +391,49 @@
             margin-top: 25px;
         }
 
-        /* WHATSAPP FLOATING BUTTON */
+
+        /* =========================
+           WHATSAPP FLOATING BUTTON
+        ========================= */
 
         .whatsapp {
             position: fixed;
             right: 20px;
             bottom: 20px;
+
             width: 58px;
             height: 58px;
+
             border-radius: 50%;
+
             background: #25D366;
-            color: white;
+            color: #ffffff;
+
             display: flex;
             align-items: center;
             justify-content: center;
+
+            text-decoration: none;
+
             font-size: 30px;
-            z-index: 999;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+
+            z-index: 9999;
+
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+            transition: 0.3s ease;
         }
 
-        /* FOOTER */
+        .whatsapp:hover {
+            transform: scale(1.1);
+            background: #20bd5a;
+            color: #ffffff;
+        }
+
+
+        /* =========================
+           FOOTER
+        ========================= */
 
         footer {
             text-align: center;
@@ -364,7 +443,10 @@
             font-size: 13px;
         }
 
-        /* MOBILE */
+
+        /* =========================
+           MOBILE
+        ========================= */
 
         @media (max-width: 800px) {
 
@@ -416,466 +498,551 @@
         }
 
     </style>
+
 </head>
 
 
 <body>
 
 
-<!-- NAVBAR -->
+    <!-- =========================
+         NAVBAR
+    ========================= -->
 
-<nav>
+    <nav>
 
-    <div class="logo">
-        Neha<span>.</span>
-    </div>
-
-    <ul>
-
-        <li>
-            <a href="#home">Home</a>
-        </li>
-
-        <li>
-            <a href="#about">About</a>
-        </li>
-
-        <li>
-            <a href="#skills">Skills</a>
-        </li>
-
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-
-        <li>
-            <a href="#education">Education</a>
-        </li>
-
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
-
-    </ul>
-
-</nav>
-
-
-<!-- HOME -->
-
-<section class="hero" id="home">
-
-    <div class="hero-container">
-
-        <div>
-
-            <div class="small-text">
-                <i class="fa-solid fa-code"></i>
-                BCA STUDENT • WEB DEVELOPER
-            </div>
-
-            <h1>
-                Hi, I'm
-                <span>Neha Yadav</span>
-            </h1>
-
-            <h2>
-                Aspiring Web Developer
-            </h2>
-
-            <p>
-                I am a BCA student passionate about technology,
-                web development and creating useful digital projects.
-                I enjoy learning new skills and turning ideas into
-                simple and attractive websites.
-            </p>
-
-
-            <div class="buttons">
-
-                <a href="#projects" class="btn primary">
-                    <i class="fa-solid fa-rocket"></i>
-                    View My Work
-                </a>
-
-                <a href="#contact" class="btn secondary">
-                    <i class="fa-solid fa-envelope"></i>
-                    Contact Me
-                </a>
-
-            </div>
-
+        <div class="logo">
+            Neha<span>.</span>
         </div>
 
+        <ul>
 
-        <!-- YOUR PHOTO -->
+            <li>
+                <a href="#home">Home</a>
+            </li>
 
-        <div class="photo-container">
+            <li>
+                <a href="#about">About</a>
+            </li>
 
-            <div class="photo-box">
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
 
-                <img src="profile.jpg"
-                     alt="Neha Yadav">
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- =========================
+         HOME
+    ========================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-container">
+
+            <div>
+
+                <div class="small-text">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    BCA STUDENT • WEB DEVELOPER
+
+                </div>
+
+
+                <h1>
+
+                    Hi, I'm
+
+                    <span>Neha Yadav</span>
+
+                </h1>
+
+
+                <h2>
+                    Aspiring Web Developer
+                </h2>
+
+
+                <p>
+
+                    I am a BCA student passionate about technology,
+                    web development and creating useful digital projects.
+                    I enjoy learning new skills and turning ideas into
+                    simple and attractive websites.
+
+                </p>
+
+
+                <div class="buttons">
+
+                    <a href="#projects"
+                       class="btn primary">
+
+                        <i class="fa-solid fa-rocket"></i>
+
+                        View My Work
+
+                    </a>
+
+
+                    <a href="#contact"
+                       class="btn secondary">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        Contact Me
+
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
 
-    </div>
+            <!-- PHOTO -->
 
-</section>
+            <div class="photo-container">
 
+                <div class="photo-box">
 
+                    <img src="profile.jpg"
+                         alt="Neha Yadav">
 
-<!-- ABOUT -->
-
-<section id="about">
-
-    <div class="section-title">
-
-        <small>ABOUT ME</small>
-
-        <h2>Who I Am</h2>
-
-        <p>
-            A student who loves learning and building.
-        </p>
-
-    </div>
-
-
-    <div class="about-container">
-
-
-        <div class="card">
-
-            <h3>
-                <i class="fa-solid fa-user"></i>
-                About Me
-            </h3>
-
-            <p>
-                I am a detail-oriented BCA student looking for
-                opportunities to gain practical experience,
-                improve my technical skills and contribute
-                to real-world projects.
-            </p>
-
-        </div>
-
-
-        <div class="card" id="skills">
-
-            <h3>
-                <i class="fa-solid fa-bolt"></i>
-                My Skills
-            </h3>
-
-
-            <div class="skills">
-
-                <span class="skill">HTML</span>
-
-                <span class="skill">CSS</span>
-
-                <span class="skill">JavaScript</span>
-
-                <span class="skill">C++</span>
-
-                <span class="skill">Python</span>
-
-                <span class="skill">MS Word</span>
-
-                <span class="skill">MS Excel</span>
-
-                <span class="skill">Web Designing</span>
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
 
+    <!-- =========================
+         ABOUT
+    ========================= -->
 
-
-<!-- PROJECTS -->
-
-<section id="projects">
-
-    <div class="section-title">
-
-        <small>MY WORK</small>
-
-        <h2>My Projects</h2>
-
-        <p>
-            Some projects I have worked on.
-        </p>
-
-    </div>
-
-
-    <div class="projects">
-
-
-        <div class="card project">
-
-            <i class="fa-solid fa-calculator"></i>
-
-            <h3>
-                Calculator
-            </h3>
-
-            <p>
-                A simple calculator project created
-                using HTML and CSS.
-            </p>
-
-        </div>
-
-
-        <div class="card project">
-
-            <i class="fa-solid fa-cloud-sun"></i>
-
-            <h3>
-                Weather App
-            </h3>
-
-            <p>
-                A weather application project designed
-                to display weather information."
-            </p>
-
-        </div>
-
-
-        <div class="card project">
-
-            <i class="fa-solid fa-laptop-code"></i>
-
-            <h3>
-                Portfolio Website
-            </h3>
-
-            <p>
-                A responsive personal portfolio website
-                created using HTML and CSS.
-            </p>
-
-        </div>
-
-
-        <div class="card project">
-
-            <i class="fa-solid fa-palette"></i>
-
-            <h3>
-                Web Page Design
-            </h3>
-
-            <p>
-                Attractive responsive web page designs
-                created using HTML and CSS.
-            </p>
-
-        </div>
-
-
-        <div class="card project">
-
-            <i class="fa-solid fa-layer-group"></i>
-
-            <h3>
-                Card Design
-            </h3>
-
-            <p>
-                Responsive and modern card layouts
-                created with HTML and CSS.
-            </p>
-
-        </div>
-
-
-        
-
-            
-      
-
-            
-             
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-
-<!-- EDUCATION -->
-
-<section id="education">
-
-    <div class="section-title">
-
-        <small>EDUCATION</small>
-
-        <h2>Education</h2>
-
-    </div>
-
-
-    <div class="education">
-
-
-        <div class="card">
-
-            <div class="year">
-                CURRENT
-            </div>
-
-            <h3>
-                Bachelor of Computer Applications
-            </h3>
-
-            <p>
-                Gurugram University
-                <br>
-                3rd Year • Pursuing
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <div class="year">
-                12th
-            </div>
-
-            <h3>
-                Senior Secondary
-            </h3>
-
-            <p>
-                Senior Secondary Education
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <div class="year">
-                10th
-            </div>
-
-            <h3>
-                Secondary Education
-            </h3>
-
-            <p>
-                Secondary School Education
-            </p>
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-
-<!-- CONTACT -->
-
-<section id="contact">
-
-    <div class="contact-box">
+    <section id="about">
 
         <div class="section-title">
 
-            <small>CONTACT</small>
+            <small>ABOUT ME</small>
 
-            <h2>
-                Let's Connect
-            </h2>
+            <h2>Who I Am</h2>
 
             <p>
-                I'm open to internship and career opportunities.
+                A student who loves learning and building.
             </p>
 
         </div>
 
 
-        <div class="contact-buttons">
+        <div class="about-container">
 
 
-            <a href="mailto:ysita2004@gmail.com"
-               class="btn primary">
+            <div class="card">
 
-                <i class="fa-solid fa-envelope"></i>
+                <h3>
 
-                Email Me
+                    <i class="fa-solid fa-user"></i>
 
-            </a>
+                    About Me
 
-
-            <a href="tel:9289956864"
-               class="btn secondary">
-
-                <i class="fa-solid fa-phone"></i>
-
-                Call Me
-
-            </a>
+                </h3>
 
 
-            <a href="https://www.linkedin.com/"
-               target="_blank"
-               class="btn secondary">
+                <p>
 
-                <i class="fa-brands fa-linkedin"></i>
+                    I am a detail-oriented BCA student looking for
+                    opportunities to gain practical experience,
+                    improve my technical skills and contribute
+                    to real-world projects.
 
-                LinkedIn
+                </p>
 
-            </a>
+            </div>
+
+
+            <div class="card" id="skills">
+
+                <h3>
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    My Skills
+
+                </h3>
+
+
+                <div class="skills">
+
+                    <span class="skill">
+                        HTML
+                    </span>
+
+                    <span class="skill">
+                        CSS
+                    </span>
+
+                    <span class="skill">
+                        JavaScript
+                    </span>
+
+                    <span class="skill">
+                        C++
+                    </span>
+
+                    <span class="skill">
+                        Python
+                    </span>
+
+                    <span class="skill">
+                        MS Word
+                    </span>
+
+                    <span class="skill">
+                        MS Excel
+                    </span>
+
+                    <span class="skill">
+                        Web Designing
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================= -->
+
+    <section id="projects">
+
+        <div class="section-title">
+
+            <small>MY WORK</small>
+
+            <h2>My Projects</h2>
+
+            <p>
+                Some projects I have worked on.
+            </p>
+
+        </div>
+
+
+        <div class="projects">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="card project">
+
+                <i class="fa-solid fa-calculator"></i>
+
+                <h3>
+                    Calculator
+                </h3>
+
+                <p>
+
+                    A simple calculator project created
+                    using HTML and CSS.
+
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="card project">
+
+                <i class="fa-solid fa-cloud-sun"></i>
+
+                <h3>
+                    Weather App
+                </h3>
+
+                <p>
+
+                    A weather application project designed
+                    to display weather information.
+
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="card project">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <h3>
+                    Portfolio Website
+                </h3>
+
+                <p>
+
+                    A responsive personal portfolio website
+                    created using HTML and CSS.
+
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+
+            <div class="card project">
+
+                <i class="fa-solid fa-palette"></i>
+
+                <h3>
+                    Web Page Design
+                </h3>
+
+                <p>
+
+                    Attractive responsive web page designs
+                    created using HTML and CSS.
+
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT 5 -->
+
+            <div class="card project">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+                <h3>
+                    Card Design
+                </h3>
+
+                <p>
+
+                    Responsive and modern card layouts
+                    created with HTML and CSS.
+
+                </p>
+
+            </div>
 
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
+    <!-- =========================
+         EDUCATION
+    ========================= -->
 
-<!-- FLOATING WHATSAPP -->
+    <section id="education">
 
-<a href="https://wa.me/919289956864"
-   class="whatsapp"
-   aria-label="WhatsApp">
+        <div class="section-title">
 
-    <i class="fa-brands fa-whatsapp"></i>
+            <small>EDUCATION</small>
 
-</a>
+            <h2>Education</h2>
+
+        </div>
 
 
+        <div class="education">
 
-<!-- FOOTER -->
 
-<footer>
+            <!-- BCA -->
 
-    © 2026 Neha Yadav.
-    All Rights Reserved.
+            <div class="card">
 
-</footer>
+                <div class="year">
+                    CURRENT
+                </div>
+
+                <h3>
+                    Bachelor of Computer Applications
+                </h3>
+
+                <p>
+
+                    Gurugram University
+
+                    <br>
+
+                    3rd Year • Pursuing
+
+                </p>
+
+            </div>
+
+
+            <!-- 12th -->
+
+            <div class="card">
+
+                <div class="year">
+                    12th
+                </div>
+
+                <h3>
+                    Senior Secondary
+                </h3>
+
+                <p>
+                    Senior Secondary Education
+                </p>
+
+            </div>
+
+
+            <!-- 10th -->
+
+            <div class="card">
+
+                <div class="year">
+                    10th
+                </div>
+
+                <h3>
+                    Secondary Education
+                </h3>
+
+                <p>
+                    Secondary School Education
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================= -->
+
+    <section id="contact">
+
+        <div class="contact-box">
+
+            <div class="section-title">
+
+                <small>CONTACT</small>
+
+                <h2>
+                    Let's Connect
+                </h2>
+
+                <p>
+                    I'm open to internship and career opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="contact-buttons">
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:ysita2004@gmail.com"
+                   class="btn primary">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    Email Me
+
+                </a>
+
+
+                <!-- PHONE -->
+
+                <a href="tel:9289956864"
+                   class="btn secondary">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    Call Me
+
+                </a>
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn secondary">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    LinkedIn
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FLOATING WHATSAPP
+    ========================= -->
+
+    <a href="https://wa.me/919289956864"
+       class="whatsapp"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        © 2026 Neha Yadav.
+        All Rights Reserved.
+
+    </footer>
 
 
 </body>
-</html>
+
+    </html>
