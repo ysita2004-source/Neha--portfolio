@@ -2,616 +2,927 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Neha Yadav | BCA Student & Web Developer</title>
+<title>Neha Yadav | BCA Student & Web Developer</title>
 
-    <meta name="description"
-          content="Neha Yadav - BCA Student and Web Developer skilled in HTML, CSS, JavaScript, Java, Python and C++.">
+<meta name="description"
+content="Neha Yadav - BCA Student and Web Developer. I build modern websites for individuals and small businesses.">
 
-    <meta name="keywords"
-          content="Neha Yadav, BCA Student, Web Developer, HTML, CSS, JavaScript, Java, Python, Portfolio">
+<meta name="author" content="Neha Yadav">
 
-    <meta name="author" content="Neha Yadav">
+<link rel="icon" href="profile.jpg">
 
-    <meta name="robots" content="index, follow">
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <link rel="canonical"
-          href="https://ysita2004-source.github.io/Neha--portfolio/">
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <meta property="og:title"
-          content="Neha Yadav | BCA Student & Web Developer">
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
-    <meta property="og:description"
-          content="Personal portfolio of Neha Yadav, BCA Student and Web Developer.">
-
-    <meta property="og:type" content="website">
-
-    <meta property="og:url"
-          content="https://ysita2004-source.github.io/Neha--portfolio/">
-
-    <meta property="og:image"
-          content="profile.jpg">
-
-    <link rel="icon" href="profile.jpg">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Google Font -->
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
 
 
 <style>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+/* =========================
+   MAIN WEBSITE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #080b16;
-    color: #ffffff;
-    line-height: 1.6;
+body{
+    font-family:'Poppins',sans-serif;
+    background:#080b16;
+    color:white;
+    line-height:1.6;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+a{
+    text-decoration:none;
+    color:inherit;
 }
 
-img {
-    max-width: 100%;
-    display: block;
+img{
+    max-width:100%;
+    display:block;
+}
+
+section{
+    padding:80px 8%;
 }
 
 
 /* NAVBAR */
 
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-    padding: 18px 8%;
+    padding:18px 8%;
 
-    background: rgba(8, 11, 22, 0.95);
-    backdrop-filter: blur(10px);
+    background:rgba(8,11,22,.96);
 
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    border-bottom:1px solid rgba(255,255,255,.08);
 }
 
-.logo {
-    font-size: 28px;
-    font-weight: 700;
-    color: #7c5cff;
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#7c5cff;
 }
 
-.nav-links {
-    display: flex;
-    gap: 25px;
-    list-style: none;
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
 }
 
-.nav-links a {
-    font-size: 15px;
-    transition: 0.3s;
+.nav-links a{
+    transition:.3s;
 }
 
-.nav-links a:hover {
-    color: #20d9c5;
-}
-
-
-/* GENERAL */
-
-section {
-    padding: 80px 8%;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 45px;
-}
-
-.section-title h2 {
-    font-size: 34px;
-    margin-bottom: 10px;
-}
-
-.section-title span {
-    color: #7c5cff;
-}
-
-.section-title p {
-    color: #aaa;
+.nav-links a:hover{
+    color:#20d9c5;
 }
 
 
 /* HERO */
 
-.hero {
-    min-height: 90vh;
+.hero{
+    min-height:90vh;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-    gap: 50px;
+    gap:50px;
 }
 
-.hero-text {
-    flex: 1;
+.hero-text{
+    flex:1;
 }
 
-.small-title {
-    color: #20d9c5;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
+.small-title{
+    color:#20d9c5;
+    font-weight:600;
+    letter-spacing:2px;
+    margin-bottom:15px;
 }
 
-.hero-text h1 {
-    font-size: 50px;
-    line-height: 1.2;
-    margin-bottom: 15px;
+.hero h1{
+    font-size:50px;
+    line-height:1.2;
+    margin-bottom:15px;
 }
 
-.hero-text h1 span {
-    color: #7c5cff;
+.hero h1 span{
+    color:#7c5cff;
 }
 
-.hero-text h2 {
-    color: #20d9c5;
-    font-size: 25px;
-    margin-bottom: 20px;
+.hero h2{
+    color:#20d9c5;
+    margin-bottom:20px;
 }
 
-.hero-text p {
-    color: #bbb;
-    max-width: 600px;
-    margin-bottom: 30px;
+.hero p{
+    color:#bbb;
+    max-width:600px;
+    margin-bottom:30px;
 }
 
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
 }
 
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+.btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
 
-    padding: 12px 22px;
+    padding:12px 22px;
 
-    border-radius: 8px;
+    border-radius:8px;
 
-    background: #7c5cff;
-    color: white;
+    background:#7c5cff;
+    color:white;
 
-    font-weight: 500;
-
-    transition: 0.3s;
+    transition:.3s;
 }
 
-.btn:hover {
-    transform: translateY(-3px);
-    background: #6548e8;
+.btn:hover{
+    transform:translateY(-3px);
+    background:#6548e8;
 }
 
-.btn-outline {
-    background: transparent;
-    border: 1px solid #7c5cff;
-}
-
-.btn-outline:hover {
-    background: #7c5cff;
+.btn-outline{
+    background:transparent;
+    border:1px solid #7c5cff;
 }
 
 
-/* HERO IMAGE */
+/* IMAGE */
 
-.hero-image {
-    flex: 0 0 330px;
-    display: flex;
-    justify-content: center;
+.hero-image{
+    flex:0 0 330px;
+
+    display:flex;
+    justify-content:center;
 }
 
-.hero-image img {
-    width: 300px;
-    height: 300px;
+.hero-image img{
+    width:300px;
+    height:300px;
 
-    object-fit: cover;
+    object-fit:cover;
 
-    border-radius: 50%;
+    border-radius:50%;
 
-    border: 5px solid #7c5cff;
+    border:5px solid #7c5cff;
 
-    box-shadow:
-        0 0 30px rgba(124,92,255,0.4);
+    box-shadow:0 0 30px rgba(124,92,255,.4);
+}
+
+
+/* SECTION TITLE */
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:34px;
+}
+
+.section-title span{
+    color:#7c5cff;
+}
+
+.section-title p{
+    color:#aaa;
 }
 
 
 /* CARDS */
 
-.card {
-    background: #101525;
+.card{
+    background:#101525;
 
-    border: 1px solid rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,.08);
 
-    border-radius: 15px;
+    border-radius:15px;
 
-    padding: 30px;
+    padding:30px;
 
-    transition: 0.3s;
+    transition:.3s;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.card:hover{
+    transform:translateY(-5px);
 
-    border-color: rgba(124,92,255,0.5);
-
-    box-shadow:
-        0 10px 30px rgba(0,0,0,0.25);
-}
-
-.card h3 {
-    margin-bottom: 15px;
-    color: #20d9c5;
-}
-
-.card p {
-    color: #bbb;
+    border-color:rgba(124,92,255,.5);
 }
 
 
 /* ABOUT */
 
-.about-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+.about-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.card h3{
+    color:#20d9c5;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#bbb;
 }
 
 
 /* SKILLS */
 
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 20px;
+.skills-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
 }
 
-.skill {
-    padding: 8px 15px;
+.skill{
+    padding:8px 15px;
 
-    border-radius: 20px;
+    border-radius:20px;
 
-    background: rgba(124,92,255,0.15);
+    background:rgba(124,92,255,.15);
 
-    border: 1px solid rgba(124,92,255,0.3);
+    border:1px solid rgba(124,92,255,.3);
 
-    color: #ddd;
+    color:#ddd;
 
-    font-size: 14px;
+    font-size:14px;
 }
 
 
 /* PROJECTS */
 
-.projects {
-    display: grid;
+.projects{
+    display:grid;
 
     grid-template-columns:
-        repeat(3, minmax(0, 1fr));
+    repeat(3,minmax(0,1fr));
 
-    gap: 22px;
+    gap:22px;
 
-    max-width: 1150px;
+    max-width:1150px;
 
-    margin: auto;
+    margin:auto;
 }
 
-.project {
-    display: flex;
-    flex-direction: column;
+.project{
+    display:flex;
+    flex-direction:column;
 
-    min-height: 280px;
+    min-height:300px;
 }
 
-.project > i {
-    font-size: 38px;
+.project > i{
+    font-size:38px;
 
-    color: #7c5cff;
+    color:#7c5cff;
 
-    margin-bottom: 20px;
+    margin-bottom:18px;
 }
 
-.project h3 {
-    color: #20d9c5;
-    margin-bottom: 12px;
+.project h3{
+    color:#20d9c5;
+
+    margin-bottom:12px;
 }
 
-.project p {
-    color: #aaa;
-    font-size: 14px;
-    margin-bottom: 20px;
+.project p{
+    color:#aaa;
+
+    font-size:14px;
+
+    margin-bottom:20px;
 }
 
+.project-badge{
+    display:inline-block;
 
-/* BADGE */
+    width:max-content;
 
-.project-badge {
-    display: inline-block;
+    padding:5px 10px;
 
-    width: fit-content;
+    margin-bottom:15px;
 
-    padding: 5px 10px;
+    border-radius:20px;
 
-    margin-bottom: 15px;
+    background:rgba(32,217,197,.12);
 
-    border-radius: 20px;
+    border:1px solid rgba(32,217,197,.3);
 
-    background: rgba(32,217,197,0.12);
+    color:#20d9c5;
 
-    border: 1px solid rgba(32,217,197,0.3);
+    font-size:11px;
 
-    color: #20d9c5;
-
-    font-size: 11px;
-
-    font-weight: 600;
-
-    letter-spacing: 1px;
+    font-weight:600;
 }
 
+.demo-btn{
+    margin-top:auto;
 
-/* LIVE DEMO BUTTON */
+    display:inline-flex;
 
-.demo-btn {
-    display: inline-flex;
+    justify-content:center;
+    align-items:center;
 
-    align-items: center;
+    gap:8px;
 
-    justify-content: center;
+    padding:10px 16px;
 
-    gap: 8px;
+    background:#7c5cff;
 
-    margin-top: auto;
+    border-radius:8px;
 
-    padding: 10px 16px;
+    font-size:13px;
 
-    border-radius: 8px;
-
-    background: #7c5cff;
-
-    color: white;
-
-    font-size: 13px;
-
-    font-weight: 500;
-
-    transition: 0.3s;
+    transition:.3s;
 }
 
-.demo-btn:hover {
-    background: #20d9c5;
-    color: #080b16;
-
-    transform: translateY(-2px);
+.demo-btn:hover{
+    background:#20d9c5;
+    color:#080b16;
 }
 
 
 /* EDUCATION */
 
-.education {
-    max-width: 900px;
-    margin: auto;
+.education{
+    max-width:900px;
+    margin:auto;
 }
 
-.education-item {
-    background: #101525;
+.education-item{
+    background:#101525;
 
-    border-left: 4px solid #7c5cff;
+    border-left:4px solid #7c5cff;
 
-    padding: 25px;
+    padding:25px;
 
-    margin-bottom: 20px;
+    margin-bottom:20px;
 
-    border-radius: 8px;
+    border-radius:8px;
 }
 
-.education-item h3 {
-    color: #20d9c5;
-    margin-bottom: 5px;
+.education-item h3{
+    color:#20d9c5;
 }
 
-.education-item p {
-    color: #aaa;
+.education-item p{
+    color:#aaa;
 }
 
 
 /* CONTACT */
 
-.contact-container {
-    max-width: 800px;
-    margin: auto;
+.contact-container{
+    max-width:800px;
 
-    display: grid;
+    margin:auto;
+
+    display:grid;
 
     grid-template-columns:
-        repeat(3, 1fr);
+    repeat(3,1fr);
 
-    gap: 20px;
+    gap:20px;
 }
 
-.contact-card {
-    text-align: center;
+.contact-card{
+    text-align:center;
 }
 
-.contact-card i {
-    font-size: 30px;
+.contact-card i{
+    font-size:30px;
 
-    color: #7c5cff;
+    color:#7c5cff;
 
-    margin-bottom: 12px;
+    margin-bottom:12px;
 }
 
-.contact-card h3 {
-    margin-bottom: 8px;
-}
-
-.contact-card p,
-.contact-card a {
-    color: #aaa;
-    font-size: 14px;
-    word-break: break-word;
-}
-
-.contact-card a:hover {
-    color: #20d9c5;
+.contact-card a{
+    color:#aaa;
 }
 
 
 /* WHATSAPP */
 
-.whatsapp {
-    position: fixed;
+.whatsapp{
+    position:fixed;
 
-    right: 20px;
-    bottom: 20px;
+    right:20px;
+    bottom:20px;
 
-    width: 55px;
-    height: 55px;
+    width:55px;
+    height:55px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    border-radius: 50%;
+    border-radius:50%;
 
-    background: #25D366;
+    background:#25D366;
 
-    color: white;
+    color:white;
 
-    font-size: 28px;
+    font-size:28px;
 
-    box-shadow:
-        0 5px 20px rgba(0,0,0,0.3);
-
-    z-index: 999;
-}
-
-.whatsapp:hover {
-    transform: scale(1.08);
+    z-index:999;
 }
 
 
 /* FOOTER */
 
-footer {
-    text-align: center;
+footer{
+    text-align:center;
 
-    padding: 25px;
+    padding:25px;
 
-    color: #888;
+    color:#888;
 
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top:1px solid rgba(255,255,255,.08);
 }
 
 
-/* TABLET */
+/* =========================
+   DEMO WEBSITES
+========================= */
 
-@media (max-width: 900px) {
+.demo-page{
+    display:none;
 
-    .projects {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    min-height:100vh;
+}
 
-    .hero {
-        flex-direction: column-reverse;
+.demo-page:target{
+    display:block;
+}
 
-        text-align: center;
+#home:target,
+#about:target,
+#projects:target,
+#education:target,
+#contact:target{
+    display:block;
+}
 
-        padding-top: 60px;
-    }
 
-    .hero-buttons {
-        justify-content: center;
-    }
+/* DEMO COMMON */
 
-    .hero-image {
-        flex: auto;
-    }
+.demo-back{
+    position:fixed;
 
-    .about-container {
-        grid-template-columns: 1fr;
-    }
+    top:20px;
+    left:20px;
+
+    z-index:2000;
+
+    background:#7c5cff;
+
+    padding:10px 17px;
+
+    border-radius:8px;
+
+    color:white;
+
+    font-size:14px;
+}
+
+.demo-header{
+    padding:20px 7%;
+
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
+
+    position:sticky;
+    top:0;
+
+    z-index:100;
+
+    background:#111;
+}
+
+.demo-header h2{
+    color:#7c5cff;
+}
+
+.demo-nav a{
+    margin-left:20px;
+}
+
+
+/* SHOP */
+
+.shop{
+    background:#f5faf7;
+    color:#18212f;
+}
+
+.shop .demo-header{
+    background:#123b2a;
+    color:white;
+}
+
+.shop .demo-header h2{
+    color:#9ff0b9;
+}
+
+.shop .demo-nav a{
+    color:white;
+}
+
+.shop-hero{
+    padding:100px 8%;
+
+    background:linear-gradient(135deg,#123b2a,#286c4d);
+
+    color:white;
+}
+
+.shop-hero h1{
+    font-size:50px;
+}
+
+.shop-hero p{
+    max-width:600px;
+
+    margin:15px 0 25px;
+
+    color:#e5f5eb;
+}
+
+.shop-btn{
+    display:inline-block;
+
+    padding:12px 20px;
+
+    background:#9ff0b9;
+
+    color:#123b2a;
+
+    border-radius:8px;
+
+    font-weight:bold;
+}
+
+.demo-container{
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:70px 8%;
+}
+
+.demo-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:20px;
+}
+
+.demo-card{
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.demo-card .icon{
+    font-size:40px;
+
+    margin-bottom:10px;
+}
+
+.demo-card h3{
+    margin-bottom:10px;
+}
+
+.demo-card p{
+    color:#667;
+}
+
+
+/* PORTFOLIO DEMO */
+
+.portfolio-demo{
+    background:#0b1020;
+}
+
+.portfolio-demo .demo-header{
+    background:#11182d;
+}
+
+.portfolio-hero{
+    min-height:80vh;
+
+    padding:100px 8%;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#0b1020,#211744);
+}
+
+.portfolio-hero h1{
+    font-size:55px;
+}
+
+.portfolio-hero span{
+    color:#8b7cff;
+}
+
+.portfolio-hero p{
+    color:#bbc3d5;
+
+    max-width:650px;
+
+    margin:15px 0 25px;
+}
+
+.portfolio-btn{
+    display:inline-block;
+
+    background:#8b7cff;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+}
+
+.portfolio-card{
+    background:#151d35;
+
+    padding:25px;
+
+    border-radius:15px;
+}
+
+
+/* SALON */
+
+.salon{
+    background:#fff8fa;
+
+    color:#34242c;
+}
+
+.salon .demo-header{
+    background:#3d1f2c;
+}
+
+.salon .demo-header h2{
+    color:#ffd2df;
+}
+
+.salon-hero{
+    padding:100px 8%;
+
+    background:linear-gradient(120deg,#3d1f2c,#8e5369);
+
+    color:white;
+}
+
+.salon-hero h1{
+    font-size:50px;
+}
+
+.salon-hero p{
+    max-width:600px;
+
+    margin:15px 0 25px;
+
+    color:#ffeaf0;
+}
+
+.salon-btn{
+    display:inline-block;
+
+    padding:12px 20px;
+
+    background:#ffd2df;
+
+    color:#3d1f2c;
+
+    border-radius:25px;
+
+    font-weight:bold;
+}
+
+.salon-card{
+    background:white;
+
+    padding:28px;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(100,50,70,.08);
+}
+
+.salon-card h3{
+    color:#7b4055;
+
+    margin:10px 0;
+}
+
+.salon-price{
+    color:#b45a79;
+
+    font-weight:bold;
+}
+
+
+/* COACHING */
+
+.coaching{
+    background:#f6f9ff;
+
+    color:#17243a;
+}
+
+.coaching .demo-header{
+    background:#102a56;
+}
+
+.coaching .demo-header h2{
+    color:#8fd3ff;
+}
+
+.coaching-hero{
+    padding:100px 8%;
+
+    background:linear-gradient(135deg,#102a56,#1966a3);
+
+    color:white;
+}
+
+.coaching-hero h1{
+    font-size:50px;
+}
+
+.coaching-hero p{
+    max-width:650px;
+
+    margin:15px 0 25px;
+
+    color:#e4f2ff;
+}
+
+.coaching-btn{
+    display:inline-block;
+
+    padding:12px 20px;
+
+    background:#8fd3ff;
+
+    color:#102a56;
+
+    border-radius:8px;
+
+    font-weight:bold;
+}
+
+.coaching-card{
+    background:white;
+
+    padding:27px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(20,50,90,.08);
+}
+
+.coaching-card h3{
+    color:#165a95;
+
+    margin:10px 0;
 }
 
 
 /* MOBILE */
 
-@media (max-width: 650px) {
+@media(max-width:900px){
 
-    nav {
-        padding: 15px 5%;
+    .projects{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    .nav-links {
-        display: none;
+    .hero{
+        flex-direction:column-reverse;
+
+        text-align:center;
     }
 
-    section {
-        padding: 60px 5%;
+    .hero-buttons{
+        justify-content:center;
     }
 
-    .hero-text h1 {
-        font-size: 36px;
+    .about-container{
+        grid-template-columns:1fr;
     }
 
-    .hero-text h2 {
-        font-size: 21px;
+    .demo-grid{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    .hero-image img {
-        width: 230px;
-        height: 230px;
+}
+
+@media(max-width:650px){
+
+    nav{
+        padding:15px 5%;
     }
 
-    .projects {
-        grid-template-columns: 1fr;
+    .nav-links{
+        display:none;
     }
 
-    .contact-container {
-        grid-template-columns: 1fr;
+    section{
+        padding:60px 5%;
     }
 
-    .section-title h2 {
-        font-size: 28px;
+    .hero h1{
+        font-size:36px;
     }
+
+    .hero-image img{
+        width:230px;
+        height:230px;
+    }
+
+    .projects{
+        grid-template-columns:1fr;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .demo-grid{
+        grid-template-columns:1fr;
+    }
+
+    .demo-header{
+        display:block;
+    }
+
+    .demo-nav{
+        margin-top:10px;
+    }
+
+    .demo-nav a{
+        margin:0 10px 0 0;
+        font-size:13px;
+    }
+
+    .shop-hero h1,
+    .salon-hero h1,
+    .coaching-hero h1,
+    .portfolio-hero h1{
+        font-size:38px;
+    }
+
 }
 
 </style>
@@ -622,29 +933,36 @@ footer {
 <body>
 
 
+<!-- ==================================================
+     MAIN PORTFOLIO
+================================================== -->
+
+<div id="main">
+
+
 <!-- NAVBAR -->
 
 <nav>
 
-    <div class="logo">
-        Neha.
-    </div>
+<div class="logo">
+Neha.
+</div>
 
-    <ul class="nav-links">
+<ul class="nav-links">
 
-        <li><a href="#home">Home</a></li>
+<li><a href="#home">Home</a></li>
 
-        <li><a href="#about">About</a></li>
+<li><a href="#about">About</a></li>
 
-        <li><a href="#skills">Skills</a></li>
+<li><a href="#skills">Skills</a></li>
 
-        <li><a href="#projects">Projects</a></li>
+<li><a href="#projects">Projects</a></li>
 
-        <li><a href="#education">Education</a></li>
+<li><a href="#education">Education</a></li>
 
-        <li><a href="#contact">Contact</a></li>
+<li><a href="#contact">Contact</a></li>
 
-    </ul>
+</ul>
 
 </nav>
 
@@ -653,48 +971,47 @@ footer {
 
 <section class="hero" id="home">
 
-    <div class="hero-text">
+<div class="hero-text">
 
-        <div class="small-title">
-            BCA STUDENT • WEB DEVELOPER
-        </div>
+<div class="small-title">
+BCA STUDENT • WEB DEVELOPER
+</div>
 
-        <h1>
-            Hi, I'm <span>Neha Yadav</span>
-        </h1>
+<h1>
+Hi, I'm <span>Neha Yadav</span>
+</h1>
 
-        <h2>
-            Aspiring Web Developer
-        </h2>
+<h2>
+Aspiring Web Developer
+</h2>
 
-        <p>
-            I am a BCA student passionate about web development
-            and creating modern, responsive and user-friendly websites.
-        </p>
+<p>
+I am a BCA student passionate about web development
+and creating modern, responsive and user-friendly websites.
+</p>
 
-        <div class="hero-buttons">
+<div class="hero-buttons">
 
-            <a href="#projects" class="btn">
-                <i class="fa-solid fa-code"></i>
-                View My Work
-            </a>
+<a href="#projects" class="btn">
+<i class="fa-solid fa-code"></i>
+View My Work
+</a>
 
-            <a href="#contact" class="btn btn-outline">
-                <i class="fa-solid fa-envelope"></i>
-                Contact Me
-            </a>
+<a href="#contact" class="btn btn-outline">
+<i class="fa-solid fa-envelope"></i>
+Contact Me
+</a>
 
-        </div>
+</div>
 
-    </div>
+</div>
 
 
-    <div class="hero-image">
+<div class="hero-image">
 
-        <img src="profile.jpg"
-             alt="Neha Yadav">
+<img src="profile.jpg" alt="Neha Yadav">
 
-    </div>
+</div>
 
 </section>
 
@@ -703,284 +1020,287 @@ footer {
 
 <section id="about">
 
-    <div class="section-title">
+<div class="section-title">
 
-        <h2>
-            About <span>Me</span>
-        </h2>
+<h2>
+About <span>Me</span>
+</h2>
 
-        <p>
-            Get to know me and my technical skills
-        </p>
+<p>
+Get to know me and my technical skills
+</p>
 
-    </div>
-
-
-    <div class="about-container">
+</div>
 
 
-        <div class="card">
-
-            <h3>
-                About Me
-            </h3>
-
-            <p>
-                I am a BCA student and aspiring Web Developer.
-                I enjoy designing websites and learning new
-                technologies. My goal is to build useful,
-                attractive and responsive websites for businesses
-                and individuals.
-            </p>
-
-        </div>
+<div class="about-container">
 
 
-        <div class="card" id="skills">
+<div class="card">
 
-            <h3>
-                My Skills
-            </h3>
+<h3>
+About Me
+</h3>
 
-            <div class="skills-list">
+<p>
+I am a BCA student and aspiring Web Developer.
+I enjoy designing websites and learning new
+technologies. My goal is to build useful,
+attractive and responsive websites for businesses
+and individuals.
+</p>
 
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">Java</span>
-                <span class="skill">Python</span>
-                <span class="skill">C++</span>
-                <span class="skill">SQL</span>
-                <span class="skill">MS Office</span>
-                <span class="skill">Web Designing</span>
+</div>
 
-            </div>
 
-        </div>
+<div class="card" id="skills">
 
-    </div>
+<h3>
+My Skills
+</h3>
+
+<div class="skills-list">
+
+<span class="skill">HTML</span>
+
+<span class="skill">CSS</span>
+
+<span class="skill">JavaScript</span>
+
+<span class="skill">Java</span>
+
+<span class="skill">Python</span>
+
+<span class="skill">C++</span>
+
+<span class="skill">SQL</span>
+
+<span class="skill">MS Office</span>
+
+<span class="skill">Web Designing</span>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 
-<!-- MY PROJECTS -->
+<!-- PROJECTS -->
 
 <section id="projects">
 
-    <div class="section-title">
+<div class="section-title">
 
-        <h2>
-            My <span>Projects</span>
-        </h2>
+<h2>
+My <span>Projects</span>
+</h2>
 
-        <p>
-            Websites and projects I've created
-        </p>
+<p>
+Websites and projects I've created
+</p>
 
-    </div>
+</div>
 
 
-    <div class="projects">
+<div class="projects">
 
 
-        <!-- 1 SMALL BUSINESS -->
+<!-- 1 SMALL BUSINESS -->
 
-        <div class="card project">
+<div class="card project">
 
-            <span class="project-badge">
-                CLIENT WEBSITE
-            </span>
+<span class="project-badge">
+CLIENT WEBSITE
+</span>
 
-            <i class="fa-solid fa-store"></i>
+<i class="fa-solid fa-store"></i>
 
-            <h3>
-                Small Business / Shops Website
-            </h3>
+<h3>
+Small Business / Shops Website
+</h3>
 
-            <p>
-                A modern responsive website for local shops
-                and small businesses with products, services,
-                location and WhatsApp contact.
-            </p>
+<p>
+Modern website for local shops and small businesses
+with products, services, location and WhatsApp contact.
+</p>
 
-            <a href="01-small-business-shop/index.html"
-               class="demo-btn">
+<a href="#shop-demo" class="demo-btn">
 
-                <i class="fa-solid fa-eye"></i>
-                Live Demo
+<i class="fa-solid fa-eye"></i>
 
-            </a>
+Live Demo
 
-        </div>
+</a>
 
+</div>
 
-        <!-- 2 PERSONAL PORTFOLIO -->
 
-        <div class="card project">
+<!-- 2 PERSONAL PORTFOLIO -->
 
-            <span class="project-badge">
-                PERSONAL WEBSITE
-            </span>
+<div class="card project">
 
-            <i class="fa-solid fa-user"></i>
+<span class="project-badge">
+PERSONAL WEBSITE
+</span>
 
-            <h3>
-                Personal / Portfolio Website
-            </h3>
+<i class="fa-solid fa-user"></i>
 
-            <p>
-                A professional personal portfolio website
-                to showcase skills, projects, education
-                and contact information.
-            </p>
+<h3>
+Personal / Portfolio Website
+</h3>
 
-            <a href="02-personal-portfolio/index.html"
-               class="demo-btn">
+<p>
+Professional personal portfolio website to showcase
+skills, projects, education and contact information.
+</p>
 
-                <i class="fa-solid fa-eye"></i>
-                Live Demo
+<a href="#portfolio-demo" class="demo-btn">
 
-            </a>
+<i class="fa-solid fa-eye"></i>
 
-        </div>
+Live Demo
 
+</a>
 
-        <!-- 3 SALON -->
+</div>
 
-        <div class="card project">
 
-            <span class="project-badge">
-                BUSINESS DEMO
-            </span>
+<!-- 3 SALON -->
 
-            <i class="fa-solid fa-spa"></i>
+<div class="card project">
 
-            <h3>
-                Salon / Beauty Parlour Website
-            </h3>
+<span class="project-badge">
+BUSINESS DEMO
+</span>
 
-            <p>
-                An attractive salon website with services,
-                pricing, packages, contact details and
-                WhatsApp appointment booking.
-            </p>
+<i class="fa-solid fa-spa"></i>
 
-            <a href="03-salon-beauty/index.html"
-               class="demo-btn">
+<h3>
+Salon / Beauty Parlour Website
+</h3>
 
-                <i class="fa-solid fa-eye"></i>
-                Live Demo
+<p>
+Attractive salon website with services, pricing,
+packages and WhatsApp appointment booking.
+</p>
 
-            </a>
+<a href="#salon-demo" class="demo-btn">
 
-        </div>
+<i class="fa-solid fa-eye"></i>
 
+Live Demo
 
-        <!-- 4 COACHING -->
+</a>
 
-        <div class="card project">
+</div>
 
-            <span class="project-badge">
-                BUSINESS DEMO
-            </span>
 
-            <i class="fa-solid fa-graduation-cap"></i>
+<!-- 4 COACHING -->
 
-            <h3>
-                Coaching Institute Website
-            </h3>
+<div class="card project">
 
-            <p>
-                A professional coaching institute website
-                featuring courses, faculty, facilities,
-                admission details and contact options.
-            </p>
+<span class="project-badge">
+BUSINESS DEMO
+</span>
 
-            <a href="04-coaching-institute/index.html"
-               class="demo-btn">
+<i class="fa-solid fa-graduation-cap"></i>
 
-                <i class="fa-solid fa-eye"></i>
-                Live Demo
+<h3>
+Coaching Institute Website
+</h3>
 
-            </a>
+<p>
+Professional coaching website with courses,
+faculty, facilities and admission details.
+</p>
 
-        </div>
+<a href="#coaching-demo" class="demo-btn">
 
+<i class="fa-solid fa-eye"></i>
 
-        <!-- 5 CALCULATOR -->
+Live Demo
 
-        <div class="card project">
+</a>
 
-            <i class="fa-solid fa-calculator"></i>
+</div>
 
-            <h3>
-                Calculator
-            </h3>
 
-            <p>
-                A simple and responsive calculator built
-                using HTML, CSS and JavaScript.
-            </p>
+<!-- 5 CALCULATOR -->
 
-        </div>
+<div class="card project">
 
+<i class="fa-solid fa-calculator"></i>
 
-        <!-- 6 WEATHER -->
+<h3>
+Calculator
+</h3>
 
-        <div class="card project">
+<p>
+Simple and responsive calculator built using
+HTML, CSS and JavaScript.
+</p>
 
-            <i class="fa-solid fa-cloud-sun"></i>
+</div>
 
-            <h3>
-                Weather App
-            </h3>
 
-            <p>
-                A responsive weather application designed
-                to display weather information in a clean
-                and user-friendly interface.
-            </p>
+<!-- 6 WEATHER -->
 
-        </div>
+<div class="card project">
 
+<i class="fa-solid fa-cloud-sun"></i>
 
-        <!-- 7 WEB PAGE -->
+<h3>
+Weather App
+</h3>
 
-        <div class="card project">
+<p>
+Responsive weather application with a clean
+and user-friendly interface.
+</p>
 
-            <i class="fa-solid fa-palette"></i>
+</div>
 
-            <h3>
-                Web Page Design
-            </h3>
 
-            <p>
-                Modern and responsive webpage designs
-                created using HTML and CSS.
-            </p>
+<!-- 7 WEB PAGE -->
 
-        </div>
+<div class="card project">
 
+<i class="fa-solid fa-palette"></i>
 
-        <!-- 8 CARD DESIGN -->
+<h3>
+Web Page Design
+</h3>
 
-        <div class="card project">
+<p>
+Modern and responsive webpage designs
+created using HTML and CSS.
+</p>
 
-            <i class="fa-solid fa-layer-group"></i>
+</div>
 
-            <h3>
-                Card Design
-            </h3>
 
-            <p>
-                Attractive responsive card components
-                created using HTML and CSS.
-            </p>
+<!-- 8 CARD DESIGN -->
 
-        </div>
+<div class="card project">
 
+<i class="fa-solid fa-layer-group"></i>
 
-    </div>
+<h3>
+Card Design
+</h3>
+
+<p>
+Attractive responsive card components
+created using HTML and CSS.
+</p>
+
+</div>
+
+
+</div>
 
 </section>
 
@@ -989,61 +1309,62 @@ footer {
 
 <section id="education">
 
-    <div class="section-title">
+<div class="section-title">
 
-        <h2>
-            My <span>Education</span>
-        </h2>
+<h2>
+My <span>Education</span>
+</h2>
 
-    </div>
-
-
-    <div class="education">
+</div>
 
 
-        <div class="education-item">
-
-            <h3>
-                Bachelor of Computer Applications (BCA)
-            </h3>
-
-            <p>
-                Gurugram University
-            </p>
-
-            <p>
-                3rd Year • Pursuing
-            </p>
-
-        </div>
+<div class="education">
 
 
-        <div class="education-item">
+<div class="education-item">
 
-            <h3>
-                Class 12th
-            </h3>
+<h3>
+Bachelor of Computer Applications (BCA)
+</h3>
 
-            <p>
-                Senior Secondary Education
-            </p>
+<p>
+Gurugram University
+</p>
 
-        </div>
+<p>
+3rd Year • Pursuing
+</p>
+
+</div>
 
 
-        <div class="education-item">
+<div class="education-item">
 
-            <h3>
-                Class 10th
-            </h3>
+<h3>
+Class 12th
+</h3>
 
-            <p>
-                Secondary Education
-            </p>
+<p>
+Senior Secondary Education
+</p>
 
-        </div>
+</div>
 
-    </div>
+
+<div class="education-item">
+
+<h3>
+Class 10th
+</h3>
+
+<p>
+Secondary Education
+</p>
+
+</div>
+
+
+</div>
 
 </section>
 
@@ -1052,94 +1373,841 @@ footer {
 
 <section id="contact">
 
-    <div class="section-title">
+<div class="section-title">
 
-        <h2>
-            Contact <span>Me</span>
-        </h2>
+<h2>
+Contact <span>Me</span>
+</h2>
 
-        <p>
-            Let's connect and work together
-        </p>
+<p>
+Let's connect and work together
+</p>
 
-    </div>
-
-
-    <div class="contact-container">
+</div>
 
 
-        <div class="card contact-card">
-
-            <i class="fa-solid fa-envelope"></i>
-
-            <h3>
-                Email
-            </h3>
-
-            <a href="mailto:ysita2004@gmail.com">
-                ysita2004@gmail.com
-            </a>
-
-        </div>
+<div class="contact-container">
 
 
-        <div class="card contact-card">
+<div class="card contact-card">
 
-            <i class="fa-solid fa-phone"></i>
+<i class="fa-solid fa-envelope"></i>
 
-            <h3>
-                Phone
-            </h3>
+<h3>
+Email
+</h3>
 
-            <a href="tel:9289956864">
-                9289956864
-            </a>
+<a href="mailto:ysita2004@gmail.com">
+ysita2004@gmail.com
+</a>
 
-        </div>
-
-
-        <div class="card contact-card">
-
-            <i class="fa-brands fa-linkedin"></i>
-
-            <h3>
-                LinkedIn
-            </h3>
-
-            <a href="https://www.linkedin.com/"
-               target="_blank">
-
-                LinkedIn Profile
-
-            </a>
-
-        </div>
+</div>
 
 
-    </div>
+<div class="card contact-card">
+
+<i class="fa-solid fa-phone"></i>
+
+<h3>
+Phone
+</h3>
+
+<a href="tel:9289956864">
+9289956864
+</a>
+
+</div>
+
+
+<div class="card contact-card">
+
+<i class="fa-brands fa-linkedin"></i>
+
+<h3>
+LinkedIn
+</h3>
+
+<a href="https://www.linkedin.com/" target="_blank">
+LinkedIn Profile
+</a>
+
+</div>
+
+
+</div>
 
 </section>
 
 
-<!-- WHATSAPP -->
-
 <a href="https://wa.me/919289956864"
-   class="whatsapp"
-   target="_blank"
-   aria-label="Contact on WhatsApp">
+class="whatsapp"
+target="_blank">
 
-    <i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-whatsapp"></i>
 
 </a>
 
 
-<!-- FOOTER -->
-
 <footer>
 
-    © 2026 Neha Yadav. All Rights Reserved.
+© 2026 Neha Yadav. All Rights Reserved.
 
 </footer>
+
+</div>
+
+
+
+<!-- ==================================================
+     1. SMALL BUSINESS DEMO
+================================================== -->
+
+<div class="demo-page shop" id="shop-demo">
+
+<a href="#projects" class="demo-back">
+← Back to Portfolio
+</a>
+
+<header class="demo-header">
+
+<h2>Sharma Store</h2>
+
+<div class="demo-nav">
+
+<a href="#shop-demo">Home</a>
+<a href="#shop-demo-products">Products</a>
+<a href="#shop-demo-offers">Offers</a>
+<a href="#shop-demo-contact">Contact</a>
+
+</div>
+
+</header>
+
+
+<div class="shop-hero">
+
+<h1>
+Your Trusted Local Store
+</h1>
+
+<p>
+Daily-use groceries, household items and more —
+convenient shopping from your neighbourhood.
+</p>
+
+<a class="shop-btn"
+href="https://wa.me/919289956864">
+
+Order on WhatsApp
+
+</a>
+
+</div>
+
+
+<div class="demo-container"
+id="shop-demo-products">
+
+<h2>
+Popular Products
+</h2>
+
+<p>
+Quality products at reasonable prices.
+</p>
+
+<br>
+
+
+<div class="demo-grid">
+
+
+<div class="demo-card">
+
+<div class="icon">
+🛒
+</div>
+
+<h3>
+Groceries
+</h3>
+
+<p>
+Rice, flour, pulses, spices and daily essentials.
+</p>
+
+</div>
+
+
+<div class="demo-card">
+
+<div class="icon">
+🥤
+</div>
+
+<h3>
+Beverages
+</h3>
+
+<p>
+Juices, soft drinks, water and refreshing options.
+</p>
+
+</div>
+
+
+<div class="demo-card">
+
+<div class="icon">
+🧴
+</div>
+
+<h3>
+Household
+</h3>
+
+<p>
+Cleaning, personal care and household products.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="shop-demo-offers">
+
+<h2>
+Today's Offers 🎉
+</h2>
+
+<p>
+Get attractive deals on selected daily-use products.
+</p>
+
+</div>
+
+
+<div class="demo-container"
+id="shop-demo-contact">
+
+<h2>
+Visit Our Store
+</h2>
+
+<p>
+📍 Main Market, Your City
+</p>
+
+<p>
+🕘 Open daily: 8:00 AM – 9:00 PM
+</p>
+
+<p>
+📞 +91 92899 56864
+</p>
+
+<br>
+
+<a class="shop-btn"
+href="https://wa.me/919289956864">
+
+Chat on WhatsApp
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ==================================================
+     2. PERSONAL PORTFOLIO DEMO
+================================================== -->
+
+<div class="demo-page portfolio-demo"
+id="portfolio-demo">
+
+<a href="#projects" class="demo-back">
+← Back to Portfolio
+</a>
+
+<header class="demo-header">
+
+<h2>Alex.</h2>
+
+<div class="demo-nav">
+
+<a href="#portfolio-demo">Home</a>
+
+<a href="#portfolio-about">About</a>
+
+<a href="#portfolio-projects">Projects</a>
+
+<a href="#portfolio-contact">Contact</a>
+
+</div>
+
+</header>
+
+
+<div class="portfolio-hero">
+
+<div>
+
+<p style="color:#8b7cff;font-weight:bold">
+WEB DEVELOPER
+</p>
+
+<h1>
+Hi, I'm <span>Alex Sharma</span>
+</h1>
+
+<p>
+I create clean, responsive and user-friendly
+websites for individuals, students and
+small businesses.
+</p>
+
+<a class="portfolio-btn"
+href="#portfolio-projects">
+
+View My Work
+
+</a>
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="portfolio-about">
+
+<h2>
+About Me
+</h2>
+
+<p style="color:#bbc3d5">
+I'm a passionate learner and web developer
+focused on building useful digital experiences.
+</p>
+
+</div>
+
+
+<div class="demo-container"
+id="portfolio-projects">
+
+<h2>
+My Projects
+</h2>
+
+<br>
+
+<div class="demo-grid">
+
+<div class="portfolio-card">
+
+<h3>
+Business Website
+</h3>
+
+<p>
+Responsive website for a local business.
+</p>
+
+</div>
+
+<div class="portfolio-card">
+
+<h3>
+Weather App
+</h3>
+
+<p>
+Simple weather interface with clean UI.
+</p>
+
+</div>
+
+<div class="portfolio-card">
+
+<h3>
+Calculator
+</h3>
+
+<p>
+Interactive calculator built with JavaScript.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="portfolio-contact">
+
+<h2>
+Let's Work Together
+</h2>
+
+<br>
+
+<a class="portfolio-btn"
+href="mailto:example@gmail.com">
+
+Email Me
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ==================================================
+     3. SALON DEMO
+================================================== -->
+
+<div class="demo-page salon"
+id="salon-demo">
+
+<a href="#projects" class="demo-back">
+← Back to Portfolio
+</a>
+
+<header class="demo-header">
+
+<h2>Glow Beauty Studio</h2>
+
+<div class="demo-nav">
+
+<a href="#salon-demo">Home</a>
+
+<a href="#salon-services">Services</a>
+
+<a href="#salon-prices">Prices</a>
+
+<a href="#salon-contact">Contact</a>
+
+</div>
+
+</header>
+
+
+<div class="salon-hero">
+
+<h1>
+Feel Beautiful. Look Confident.
+</h1>
+
+<p>
+Professional beauty, hair and skincare services
+in a relaxing studio.
+</p>
+
+<a class="salon-btn"
+href="https://wa.me/919289956864?text=Hi%20I%20want%20to%20book%20an%20appointment">
+
+Book Appointment
+
+</a>
+
+</div>
+
+
+<div class="demo-container"
+id="salon-services">
+
+<h2>
+Our Services
+</h2>
+
+<br>
+
+<div class="demo-grid">
+
+
+<div class="salon-card">
+
+<div style="font-size:40px">
+💇
+</div>
+
+<h3>
+Hair Styling
+</h3>
+
+<p>
+Haircuts, styling, smoothening and more.
+</p>
+
+</div>
+
+
+<div class="salon-card">
+
+<div style="font-size:40px">
+💅
+</div>
+
+<h3>
+Nails & Beauty
+</h3>
+
+<p>
+Manicure, pedicure and nail care.
+</p>
+
+</div>
+
+
+<div class="salon-card">
+
+<div style="font-size:40px">
+✨
+</div>
+
+<h3>
+Facial & Skin Care
+</h3>
+
+<p>
+Refreshing facial and skincare services.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="salon-prices">
+
+<h2>
+Popular Packages
+</h2>
+
+<br>
+
+<div class="demo-grid">
+
+
+<div class="salon-card">
+
+<h3>
+Glow Facial
+</h3>
+
+<p class="salon-price">
+Starting ₹499
+</p>
+
+</div>
+
+
+<div class="salon-card">
+
+<h3>
+Hair Styling
+</h3>
+
+<p class="salon-price">
+Starting ₹299
+</p>
+
+</div>
+
+
+<div class="salon-card">
+
+<h3>
+Bridal Package
+</h3>
+
+<p class="salon-price">
+Custom Quote
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="salon-contact">
+
+<h2>
+Book Your Appointment
+</h2>
+
+<br>
+
+<p>
+📍 Main Market, Your City
+</p>
+
+<p>
+🕘 10 AM – 8 PM
+</p>
+
+<p>
+📞 +91 92899 56864
+</p>
+
+<br>
+
+<a class="salon-btn"
+href="https://wa.me/919289956864">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ==================================================
+     4. COACHING DEMO
+================================================== -->
+
+<div class="demo-page coaching"
+id="coaching-demo">
+
+<a href="#projects" class="demo-back">
+← Back to Portfolio
+</a>
+
+<header class="demo-header">
+
+<h2>
+Bright Future Academy
+</h2>
+
+<div class="demo-nav">
+
+<a href="#coaching-demo">
+Home
+</a>
+
+<a href="#coaching-courses">
+Courses
+</a>
+
+<a href="#coaching-faculty">
+Faculty
+</a>
+
+<a href="#coaching-contact">
+Admission
+</a>
+
+</div>
+
+</header>
+
+
+<div class="coaching-hero">
+
+<h1>
+Learn Today. Achieve Tomorrow.
+</h1>
+
+<p>
+Quality coaching, experienced teachers and a
+focused learning environment for students.
+</p>
+
+<a class="coaching-btn"
+href="#coaching-contact">
+
+Enquire Now
+
+</a>
+
+</div>
+
+
+<div class="demo-container"
+id="coaching-courses">
+
+<h2>
+Our Courses
+</h2>
+
+<br>
+
+<div class="demo-grid">
+
+
+<div class="coaching-card">
+
+<div style="font-size:40px">
+📚
+</div>
+
+<h3>
+School Classes
+</h3>
+
+<p>
+Concept-focused classes for school students.
+</p>
+
+</div>
+
+
+<div class="coaching-card">
+
+<div style="font-size:40px">
+🎯
+</div>
+
+<h3>
+Competitive Exams
+</h3>
+
+<p>
+Structured preparation with regular tests.
+</p>
+
+</div>
+
+
+<div class="coaching-card">
+
+<div style="font-size:40px">
+💻
+</div>
+
+<h3>
+Computer Courses
+</h3>
+
+<p>
+Practical computer and programming training.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="coaching-faculty">
+
+<h2>
+Why Choose Us?
+</h2>
+
+<br>
+
+<div class="demo-grid">
+
+
+<div class="coaching-card">
+
+<h3>
+Experienced Faculty
+</h3>
+
+<p>
+Learn from dedicated and supportive teachers.
+</p>
+
+</div>
+
+
+<div class="coaching-card">
+
+<h3>
+Regular Tests
+</h3>
+
+<p>
+Track progress through practice and assessments.
+</p>
+
+</div>
+
+
+<div class="coaching-card">
+
+<h3>
+Personal Guidance
+</h3>
+
+<p>
+Get focused support for your learning goals.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="demo-container"
+id="coaching-contact">
+
+<h2>
+Admission Enquiry
+</h2>
+
+<br>
+
+<p>
+📍 Main Road, Your City
+</p>
+
+<p>
+📞 +91 92899 56864
+</p>
+
+<p>
+🕘 Mon–Sat: 8 AM – 7 PM
+</p>
+
+<br>
+
+<a class="coaching-btn"
+href="https://wa.me/919289956864?text=Hi%20I%20want%20course%20details">
+
+Get Course Details
+
+</a>
+
+</div>
+
+
+</div>
 
 
 </body>
