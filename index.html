@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
@@ -11,49 +10,39 @@
     <title>Neha Yadav | BCA Student & Web Developer</title>
 
     <meta name="description"
-          content="Neha Yadav is a BCA student and aspiring web developer skilled in HTML, CSS, JavaScript, Python and C++. Explore her portfolio, projects and skills.">
+          content="Neha Yadav - BCA Student and Web Developer skilled in HTML, CSS, JavaScript, Java, Python and C++.">
 
     <meta name="keywords"
-          content="Neha Yadav, Neha Yadav portfolio, BCA student, web developer, web designer, HTML, CSS, JavaScript, Python, C++">
+          content="Neha Yadav, BCA Student, Web Developer, HTML, CSS, JavaScript, Java, Python, Portfolio">
 
-    <meta name="author"
-          content="Neha Yadav">
+    <meta name="author" content="Neha Yadav">
 
-    <meta name="robots"
-          content="index, follow">
+    <meta name="robots" content="index, follow">
 
     <link rel="canonical"
           href="https://ysita2004-source.github.io/Neha--portfolio/">
-
-    <!-- Open Graph -->
 
     <meta property="og:title"
           content="Neha Yadav | BCA Student & Web Developer">
 
     <meta property="og:description"
-          content="Explore Neha Yadav's portfolio, web development projects, skills and education.">
+          content="Personal portfolio of Neha Yadav, BCA Student and Web Developer.">
 
-    <meta property="og:type"
-          content="website">
+    <meta property="og:type" content="website">
 
     <meta property="og:url"
           content="https://ysita2004-source.github.io/Neha--portfolio/">
 
     <meta property="og:image"
-          content="https://ysita2004-source.github.io/Neha--portfolio/profile.jpg">
+          content="profile.jpg">
 
-    <!-- Favicon -->
-
-    <link rel="icon"
-          href="profile.jpg">
+    <link rel="icon" href="profile.jpg">
 
     <!-- Font Awesome -->
-
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- Google Font -->
-
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
 
@@ -61,443 +50,571 @@
           href="https://fonts.gstatic.com"
           crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
           rel="stylesheet">
 
 
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: #080b16;
-            color: white;
-        }
-
-
-        /* =========================
-           NAVBAR
-        ========================= */
-
-        nav {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: rgba(8, 11, 22, 0.95);
-            padding: 18px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #22283a;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: 800;
-            color: #ffffff;
-        }
-
-        .logo span {
-            color: #7c5cff;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 25px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 14px;
-            transition: 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #7c5cff;
-        }
-
-
-        /* =========================
-           HERO
-        ========================= */
-
-        .hero {
-            min-height: 90vh;
-            display: flex;
-            align-items: center;
-            padding: 70px 8%;
-        }
-
-        .hero-container {
-            width: 100%;
-            max-width: 1150px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1.2fr 0.8fr;
-            align-items: center;
-            gap: 60px;
-        }
-
-        .small-text {
-            color: #20d9c5;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        .hero h1 {
-            font-size: clamp(45px, 7vw, 75px);
-            line-height: 1.1;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 span {
-            color: #7c5cff;
-        }
-
-        .hero h2 {
-            font-size: 25px;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            color: #aeb6ca;
-            line-height: 1.8;
-            max-width: 600px;
-        }
-
-
-        /* =========================
-           PHOTO
-        ========================= */
-
-        .photo-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .photo-box {
-            width: 290px;
-            height: 370px;
-            padding: 8px;
-            border-radius: 25px;
-            background: linear-gradient(135deg, #7c5cff, #20d9c5);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-        }
-
-        .photo-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center top;
-            border-radius: 20px;
-            background: #151a2b;
-        }
-
-
-        /* =========================
-           BUTTONS
-        ========================= */
-
-        .buttons {
-            display: flex;
-            gap: 15px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 9px;
-            padding: 13px 21px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            transform: translateY(-4px);
-        }
-
-        .primary {
-            background: #7c5cff;
-            color: white;
-        }
-
-        .secondary {
-            border: 1px solid #343b52;
-            color: white;
-            background: #111628;
-        }
-
-
-        /* =========================
-           SECTIONS
-        ========================= */
-
-        section {
-            padding: 90px 8%;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 45px;
-        }
-
-        .section-title small {
-            color: #20d9c5;
-            font-weight: 700;
-            letter-spacing: 2px;
-        }
-
-        .section-title h2 {
-            font-size: 38px;
-            margin-top: 5px;
-        }
-
-        .section-title p {
-            color: #aeb6ca;
-            margin-top: 8px;
-        }
-
-
-        /* =========================
-           ABOUT
-        ========================= */
-
-        .about-container {
-            max-width: 1000px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
-        }
-
-        .card {
-            background: #101628;
-            border: 1px solid #252c40;
-            padding: 30px;
-            border-radius: 18px;
-        }
-
-        .card h3 {
-            margin-bottom: 15px;
-            color: white;
-        }
-
-        .card h3 i {
-            color: #7c5cff;
-            margin-right: 8px;
-        }
-
-        .card p {
-            color: #aeb6ca;
-            line-height: 1.8;
-        }
-
-
-        /* =========================
-           SKILLS
-        ========================= */
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .skill {
-            padding: 9px 15px;
-            border-radius: 8px;
-            background: #181e34;
-            border: 1px solid #343b52;
-            color: #ddd;
-            font-size: 14px;
-        }
-
-
-        /* =========================
-           PROJECTS
-        ========================= */
-
-        .projects {
-            max-width: 1100px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 22px;
-        }
-
-        .project i {
-            font-size: 32px;
-            color: #20d9c5;
-            margin-bottom: 18px;
-        }
-
-        .project h3 {
-            margin-bottom: 10px;
-        }
-
-        .project p {
-            color: #aeb6ca;
-            font-size: 14px;
-        }
-
-
-        /* =========================
-           EDUCATION
-        ========================= */
-
-        .education {
-            max-width: 1100px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 22px;
-        }
-
-        .year {
-            color: #20d9c5;
-            font-weight: 700;
-            font-size: 13px;
-            margin-bottom: 8px;
-        }
-
-
-        /* =========================
-           CONTACT
-        ========================= */
-
-        .contact-box {
-            max-width: 800px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .contact-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin-top: 25px;
-        }
-
-
-        /* =========================
-           WHATSAPP FLOATING BUTTON
-        ========================= */
-
-        .whatsapp {
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-
-            width: 58px;
-            height: 58px;
-
-            border-radius: 50%;
-
-            background: #25D366;
-            color: #ffffff;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            text-decoration: none;
-
-            font-size: 30px;
-
-            z-index: 9999;
-
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-
-            transition: 0.3s ease;
-        }
-
-        .whatsapp:hover {
-            transform: scale(1.1);
-            background: #20bd5a;
-            color: #ffffff;
-        }
-
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            text-align: center;
-            padding: 25px;
-            border-top: 1px solid #252c40;
-            color: #8992a9;
-            font-size: 13px;
-        }
-
-
-        /* =========================
-           MOBILE
-        ========================= */
-
-        @media (max-width: 800px) {
-
-            nav {
-                padding: 15px 5%;
-            }
-
-            nav ul {
-                display: none;
-            }
-
-            .hero {
-                padding: 60px 6%;
-            }
-
-            .hero-container {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .hero p {
-                margin: auto;
-            }
-
-            .buttons {
-                justify-content: center;
-            }
-
-            .photo-container {
-                order: -1;
-            }
-
-            .about-container {
-                grid-template-columns: 1fr;
-            }
-
-            .projects {
-                grid-template-columns: 1fr;
-            }
-
-            .education {
-                grid-template-columns: 1fr;
-            }
-
-            section {
-                padding: 65px 6%;
-            }
-
-        }
-
-    </style>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #080b16;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* NAVBAR */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 8%;
+
+    background: rgba(8, 11, 22, 0.95);
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #7c5cff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #20d9c5;
+}
+
+
+/* GENERAL */
+
+section {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.section-title span {
+    color: #7c5cff;
+}
+
+.section-title p {
+    color: #aaa;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.small-title {
+    color: #20d9c5;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 span {
+    color: #7c5cff;
+}
+
+.hero-text h2 {
+    color: #20d9c5;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #bbb;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 22px;
+
+    border-radius: 8px;
+
+    background: #7c5cff;
+    color: white;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: #6548e8;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #7c5cff;
+}
+
+.btn-outline:hover {
+    background: #7c5cff;
+}
+
+
+/* HERO IMAGE */
+
+.hero-image {
+    flex: 0 0 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #7c5cff;
+
+    box-shadow:
+        0 0 30px rgba(124,92,255,0.4);
+}
+
+
+/* CARDS */
+
+.card {
+    background: #101525;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(124,92,255,0.5);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #20d9c5;
+}
+
+.card p {
+    color: #bbb;
+}
+
+
+/* ABOUT */
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+/* SKILLS */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.skill {
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    background: rgba(124,92,255,0.15);
+
+    border: 1px solid rgba(124,92,255,0.3);
+
+    color: #ddd;
+
+    font-size: 14px;
+}
+
+
+/* PROJECTS */
+
+.projects {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 22px;
+
+    max-width: 1150px;
+
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 280px;
+}
+
+.project > i {
+    font-size: 38px;
+
+    color: #7c5cff;
+
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #20d9c5;
+    margin-bottom: 12px;
+}
+
+.project p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+/* BADGE */
+
+.project-badge {
+    display: inline-block;
+
+    width: fit-content;
+
+    padding: 5px 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 20px;
+
+    background: rgba(32,217,197,0.12);
+
+    border: 1px solid rgba(32,217,197,0.3);
+
+    color: #20d9c5;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+
+/* LIVE DEMO BUTTON */
+
+.demo-btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    margin-top: auto;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    background: #7c5cff;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.demo-btn:hover {
+    background: #20d9c5;
+    color: #080b16;
+
+    transform: translateY(-2px);
+}
+
+
+/* EDUCATION */
+
+.education {
+    max-width: 900px;
+    margin: auto;
+}
+
+.education-item {
+    background: #101525;
+
+    border-left: 4px solid #7c5cff;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+}
+
+.education-item h3 {
+    color: #20d9c5;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    color: #aaa;
+}
+
+
+/* CONTACT */
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.contact-card {
+    text-align: center;
+}
+
+.contact-card i {
+    font-size: 30px;
+
+    color: #7c5cff;
+
+    margin-bottom: 12px;
+}
+
+.contact-card h3 {
+    margin-bottom: 8px;
+}
+
+.contact-card p,
+.contact-card a {
+    color: #aaa;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+.contact-card a:hover {
+    color: #20d9c5;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp {
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #25D366;
+
+    color: white;
+
+    font-size: 28px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.3);
+
+    z-index: 999;
+}
+
+.whatsapp:hover {
+    transform: scale(1.08);
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    color: #888;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        padding-top: 60px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image {
+        flex: auto;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    nav {
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    section {
+        padding: 60px 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text h2 {
+        font-size: 21px;
+    }
+
+    .hero-image img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+}
+
+</style>
 
 </head>
 
@@ -505,544 +622,525 @@
 <body>
 
 
-    <!-- =========================
-         NAVBAR
-    ========================= -->
+<!-- NAVBAR -->
 
-    <nav>
+<nav>
 
-        <div class="logo">
-            Neha<span>.</span>
+    <div class="logo">
+        Neha.
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#education">Education</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <div class="small-title">
+            BCA STUDENT • WEB DEVELOPER
         </div>
 
-        <ul>
+        <h1>
+            Hi, I'm <span>Neha Yadav</span>
+        </h1>
 
-            <li>
-                <a href="#home">Home</a>
-            </li>
+        <h2>
+            Aspiring Web Developer
+        </h2>
 
-            <li>
-                <a href="#about">About</a>
-            </li>
+        <p>
+            I am a BCA student passionate about web development
+            and creating modern, responsive and user-friendly websites.
+        </p>
 
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
+        <div class="hero-buttons">
 
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+            <a href="#projects" class="btn">
+                <i class="fa-solid fa-code"></i>
+                View My Work
+            </a>
 
-            <li>
-                <a href="#education">Education</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-
-        </ul>
-
-    </nav>
-
-
-    <!-- =========================
-         HOME
-    ========================= -->
-
-    <section class="hero" id="home">
-
-        <div class="hero-container">
-
-            <div>
-
-                <div class="small-text">
-
-                    <i class="fa-solid fa-code"></i>
-
-                    BCA STUDENT • WEB DEVELOPER
-
-                </div>
-
-
-                <h1>
-
-                    Hi, I'm
-
-                    <span>Neha Yadav</span>
-
-                </h1>
-
-
-                <h2>
-                    Aspiring Web Developer
-                </h2>
-
-
-                <p>
-
-                    I am a BCA student passionate about technology,
-                    web development and creating useful digital projects.
-                    I enjoy learning new skills and turning ideas into
-                    simple and attractive websites.
-
-                </p>
-
-
-                <div class="buttons">
-
-                    <a href="#projects"
-                       class="btn primary">
-
-                        <i class="fa-solid fa-rocket"></i>
-
-                        View My Work
-
-                    </a>
-
-
-                    <a href="#contact"
-                       class="btn secondary">
-
-                        <i class="fa-solid fa-envelope"></i>
-
-                        Contact Me
-
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- PHOTO -->
-
-            <div class="photo-container">
-
-                <div class="photo-box">
-
-                    <img src="profile.jpg"
-                         alt="Neha Yadav">
-
-                </div>
-
-            </div>
+            <a href="#contact" class="btn btn-outline">
+                <i class="fa-solid fa-envelope"></i>
+                Contact Me
+            </a>
 
         </div>
 
-    </section>
+    </div>
 
 
-    <!-- =========================
-         ABOUT
-    ========================= -->
+    <div class="hero-image">
 
-    <section id="about">
+        <img src="profile.jpg"
+             alt="Neha Yadav">
 
-        <div class="section-title">
+    </div>
 
-            <small>ABOUT ME</small>
+</section>
 
-            <h2>Who I Am</h2>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <div class="section-title">
+
+        <h2>
+            About <span>Me</span>
+        </h2>
+
+        <p>
+            Get to know me and my technical skills
+        </p>
+
+    </div>
+
+
+    <div class="about-container">
+
+
+        <div class="card">
+
+            <h3>
+                About Me
+            </h3>
 
             <p>
-                A student who loves learning and building.
+                I am a BCA student and aspiring Web Developer.
+                I enjoy designing websites and learning new
+                technologies. My goal is to build useful,
+                attractive and responsive websites for businesses
+                and individuals.
             </p>
 
         </div>
 
 
-        <div class="about-container">
+        <div class="card" id="skills">
 
+            <h3>
+                My Skills
+            </h3>
 
-            <div class="card">
+            <div class="skills-list">
 
-                <h3>
-
-                    <i class="fa-solid fa-user"></i>
-
-                    About Me
-
-                </h3>
-
-
-                <p>
-
-                    I am a detail-oriented BCA student looking for
-                    opportunities to gain practical experience,
-                    improve my technical skills and contribute
-                    to real-world projects.
-
-                </p>
-
-            </div>
-
-
-            <div class="card" id="skills">
-
-                <h3>
-
-                    <i class="fa-solid fa-bolt"></i>
-
-                    My Skills
-
-                </h3>
-
-
-                <div class="skills">
-
-                    <span class="skill">
-                        HTML
-                    </span>
-
-                    <span class="skill">
-                        CSS
-                    </span>
-
-                    <span class="skill">
-                        JavaScript
-                    </span>
-
-                    <span class="skill">
-                        C++
-                    </span>
-
-                    <span class="skill">
-                        Python
-                    </span>
-
-                    <span class="skill">
-                        MS Word
-                    </span>
-
-                    <span class="skill">
-                        MS Excel
-                    </span>
-
-                    <span class="skill">
-                        Web Designing
-                    </span>
-
-                </div>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Java</span>
+                <span class="skill">Python</span>
+                <span class="skill">C++</span>
+                <span class="skill">SQL</span>
+                <span class="skill">MS Office</span>
+                <span class="skill">Web Designing</span>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- =========================
-         PROJECTS
-    ========================= -->
+<!-- MY PROJECTS -->
 
-    <section id="projects">
+<section id="projects">
 
-        <div class="section-title">
+    <div class="section-title">
 
-            <small>MY WORK</small>
+        <h2>
+            My <span>Projects</span>
+        </h2>
 
-            <h2>My Projects</h2>
+        <p>
+            Websites and projects I've created
+        </p>
+
+    </div>
+
+
+    <div class="projects">
+
+
+        <!-- 1 SMALL BUSINESS -->
+
+        <div class="card project">
+
+            <span class="project-badge">
+                CLIENT WEBSITE
+            </span>
+
+            <i class="fa-solid fa-store"></i>
+
+            <h3>
+                Small Business / Shops Website
+            </h3>
 
             <p>
-                Some projects I have worked on.
+                A modern responsive website for local shops
+                and small businesses with products, services,
+                location and WhatsApp contact.
+            </p>
+
+            <a href="01-small-business-shop/index.html"
+               class="demo-btn">
+
+                <i class="fa-solid fa-eye"></i>
+                Live Demo
+
+            </a>
+
+        </div>
+
+
+        <!-- 2 PERSONAL PORTFOLIO -->
+
+        <div class="card project">
+
+            <span class="project-badge">
+                PERSONAL WEBSITE
+            </span>
+
+            <i class="fa-solid fa-user"></i>
+
+            <h3>
+                Personal / Portfolio Website
+            </h3>
+
+            <p>
+                A professional personal portfolio website
+                to showcase skills, projects, education
+                and contact information.
+            </p>
+
+            <a href="02-personal-portfolio/index.html"
+               class="demo-btn">
+
+                <i class="fa-solid fa-eye"></i>
+                Live Demo
+
+            </a>
+
+        </div>
+
+
+        <!-- 3 SALON -->
+
+        <div class="card project">
+
+            <span class="project-badge">
+                BUSINESS DEMO
+            </span>
+
+            <i class="fa-solid fa-spa"></i>
+
+            <h3>
+                Salon / Beauty Parlour Website
+            </h3>
+
+            <p>
+                An attractive salon website with services,
+                pricing, packages, contact details and
+                WhatsApp appointment booking.
+            </p>
+
+            <a href="03-salon-beauty/index.html"
+               class="demo-btn">
+
+                <i class="fa-solid fa-eye"></i>
+                Live Demo
+
+            </a>
+
+        </div>
+
+
+        <!-- 4 COACHING -->
+
+        <div class="card project">
+
+            <span class="project-badge">
+                BUSINESS DEMO
+            </span>
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h3>
+                Coaching Institute Website
+            </h3>
+
+            <p>
+                A professional coaching institute website
+                featuring courses, faculty, facilities,
+                admission details and contact options.
+            </p>
+
+            <a href="04-coaching-institute/index.html"
+               class="demo-btn">
+
+                <i class="fa-solid fa-eye"></i>
+                Live Demo
+
+            </a>
+
+        </div>
+
+
+        <!-- 5 CALCULATOR -->
+
+        <div class="card project">
+
+            <i class="fa-solid fa-calculator"></i>
+
+            <h3>
+                Calculator
+            </h3>
+
+            <p>
+                A simple and responsive calculator built
+                using HTML, CSS and JavaScript.
             </p>
 
         </div>
 
 
-        <div class="projects">
+        <!-- 6 WEATHER -->
 
+        <div class="card project">
 
-            <!-- PROJECT 1 -->
+            <i class="fa-solid fa-cloud-sun"></i>
 
-            <div class="card project">
+            <h3>
+                Weather App
+            </h3>
 
-                <i class="fa-solid fa-calculator"></i>
-
-                <h3>
-                    Calculator
-                </h3>
-
-                <p>
-
-                    A simple calculator project created
-                    using HTML and CSS.
-
-                </p>
-
-            </div>
-
-
-            <!-- PROJECT 2 -->
-
-            <div class="card project">
-
-                <i class="fa-solid fa-cloud-sun"></i>
-
-                <h3>
-                    Weather App
-                </h3>
-
-                <p>
-
-                    A weather application project designed
-                    to display weather information.
-
-                </p>
-
-            </div>
-
-
-            <!-- PROJECT 3 -->
-
-            <div class="card project">
-
-                <i class="fa-solid fa-laptop-code"></i>
-
-                <h3>
-                    Portfolio Website
-                </h3>
-
-                <p>
-
-                    A responsive personal portfolio website
-                    created using HTML and CSS.
-
-                </p>
-
-            </div>
-
-
-            <!-- PROJECT 4 -->
-
-            <div class="card project">
-
-                <i class="fa-solid fa-palette"></i>
-
-                <h3>
-                    Web Page Design
-                </h3>
-
-                <p>
-
-                    Attractive responsive web page designs
-                    created using HTML and CSS.
-
-                </p>
-
-            </div>
-
-
-            <!-- PROJECT 5 -->
-
-            <div class="card project">
-
-                <i class="fa-solid fa-layer-group"></i>
-
-                <h3>
-                    Card Design
-                </h3>
-
-                <p>
-
-                    Responsive and modern card layouts
-                    created with HTML and CSS.
-
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         EDUCATION
-    ========================= -->
-
-    <section id="education">
-
-        <div class="section-title">
-
-            <small>EDUCATION</small>
-
-            <h2>Education</h2>
+            <p>
+                A responsive weather application designed
+                to display weather information in a clean
+                and user-friendly interface.
+            </p>
 
         </div>
 
 
-        <div class="education">
+        <!-- 7 WEB PAGE -->
 
+        <div class="card project">
 
-            <!-- BCA -->
+            <i class="fa-solid fa-palette"></i>
 
-            <div class="card">
+            <h3>
+                Web Page Design
+            </h3>
 
-                <div class="year">
-                    CURRENT
-                </div>
-
-                <h3>
-                    Bachelor of Computer Applications
-                </h3>
-
-                <p>
-
-                    Gurugram University
-
-                    <br>
-
-                    3rd Year • Pursuing
-
-                </p>
-
-            </div>
-
-
-            <!-- 12th -->
-
-            <div class="card">
-
-                <div class="year">
-                    12th
-                </div>
-
-                <h3>
-                    Senior Secondary
-                </h3>
-
-                <p>
-                    Senior Secondary Education
-                </p>
-
-            </div>
-
-
-            <!-- 10th -->
-
-            <div class="card">
-
-                <div class="year">
-                    10th
-                </div>
-
-                <h3>
-                    Secondary Education
-                </h3>
-
-                <p>
-                    Secondary School Education
-                </p>
-
-            </div>
-
+            <p>
+                Modern and responsive webpage designs
+                created using HTML and CSS.
+            </p>
 
         </div>
 
-    </section>
 
+        <!-- 8 CARD DESIGN -->
 
-    <!-- =========================
-         CONTACT
-    ========================= -->
+        <div class="card project">
 
-    <section id="contact">
+            <i class="fa-solid fa-layer-group"></i>
 
-        <div class="contact-box">
+            <h3>
+                Card Design
+            </h3>
 
-            <div class="section-title">
-
-                <small>CONTACT</small>
-
-                <h2>
-                    Let's Connect
-                </h2>
-
-                <p>
-                    I'm open to internship and career opportunities.
-                </p>
-
-            </div>
-
-
-            <div class="contact-buttons">
-
-
-                <!-- EMAIL -->
-
-                <a href="mailto:ysita2004@gmail.com"
-                   class="btn primary">
-
-                    <i class="fa-solid fa-envelope"></i>
-
-                    Email Me
-
-                </a>
-
-
-                <!-- PHONE -->
-
-                <a href="tel:9289956864"
-                   class="btn secondary">
-
-                    <i class="fa-solid fa-phone"></i>
-
-                    Call Me
-
-                </a>
-
-
-                <!-- LINKEDIN -->
-
-                <a href="https://www.linkedin.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="btn secondary">
-
-                    <i class="fa-brands fa-linkedin"></i>
-
-                    LinkedIn
-
-                </a>
-
-
-            </div>
+            <p>
+                Attractive responsive card components
+                created using HTML and CSS.
+            </p>
 
         </div>
 
-    </section>
+
+    </div>
+
+</section>
 
 
-    <!-- =========================
-         FLOATING WHATSAPP
-    ========================= -->
+<!-- EDUCATION -->
 
-    <a href="https://wa.me/919289956864"
-       class="whatsapp"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Chat on WhatsApp">
+<section id="education">
 
-        <i class="fa-brands fa-whatsapp"></i>
+    <div class="section-title">
 
-    </a>
+        <h2>
+            My <span>Education</span>
+        </h2>
+
+    </div>
 
 
-    <!-- =========================
-         FOOTER
-    ========================= -->
+    <div class="education">
 
-    <footer>
 
-        © 2026 Neha Yadav.
-        All Rights Reserved.
+        <div class="education-item">
 
-    </footer>
+            <h3>
+                Bachelor of Computer Applications (BCA)
+            </h3>
+
+            <p>
+                Gurugram University
+            </p>
+
+            <p>
+                3rd Year • Pursuing
+            </p>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <h3>
+                Class 12th
+            </h3>
+
+            <p>
+                Senior Secondary Education
+            </p>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <h3>
+                Class 10th
+            </h3>
+
+            <p>
+                Secondary Education
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>
+            Contact <span>Me</span>
+        </h2>
+
+        <p>
+            Let's connect and work together
+        </p>
+
+    </div>
+
+
+    <div class="contact-container">
+
+
+        <div class="card contact-card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3>
+                Email
+            </h3>
+
+            <a href="mailto:ysita2004@gmail.com">
+                ysita2004@gmail.com
+            </a>
+
+        </div>
+
+
+        <div class="card contact-card">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <h3>
+                Phone
+            </h3>
+
+            <a href="tel:9289956864">
+                9289956864
+            </a>
+
+        </div>
+
+
+        <div class="card contact-card">
+
+            <i class="fa-brands fa-linkedin"></i>
+
+            <h3>
+                LinkedIn
+            </h3>
+
+            <a href="https://www.linkedin.com/"
+               target="_blank">
+
+                LinkedIn Profile
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/919289956864"
+   class="whatsapp"
+   target="_blank"
+   aria-label="Contact on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 Neha Yadav. All Rights Reserved.
+
+</footer>
 
 
 </body>
-
     </html>
